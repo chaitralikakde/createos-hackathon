@@ -1,0 +1,15 @@
+{
+  "name": "payment-fix",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --test src/fixer.test.ts",
+    "site": "node site/server.mjs",
+    "fix": "node --experimental-strip-types src/run.ts",
+    "slack": "node --experimental-strip-types src/slack.ts"
+  },
+  "dependencies": {
+    "@nodeops-createos/sandbox": "^0.8.2",
+    "@slack/bolt": "^5.1.0"
+  }
+}
