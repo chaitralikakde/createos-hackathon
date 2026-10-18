@@ -21,6 +21,9 @@ testing demo website - https://github.com/chaitralikakde/testing-workflow
 
 A mention that does not describe a paid-but-unpaid problem gets a short reply asking for that wording. The fix does not run.
 
+<img width="1321" height="633" alt="Screenshot 2026-10-18 063216" src="https://github.com/user-attachments/assets/d093f80c-253e-4fd4-9158-b2f9795b5ea5" />
+<img width="1042" height="571" alt="Screenshot 2026-10-18 063233" src="https://github.com/user-attachments/assets/644697da-fd5b-48c9-9fc6-d124c93b5802" />
+
 ## Architecture
 
 ```mermaid
