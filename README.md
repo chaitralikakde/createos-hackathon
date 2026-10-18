@@ -4,6 +4,8 @@ A Slack bot for a community. When someone posts that they paid and the product s
 
 The demo product is a small course site. Two students are on the roster. A paid fee is written onto the wrong student. The sandbox test catches that, the agent corrects the match, and GitHub receives the fix.
 
+testing demo website - https://github.com/chaitralikakde/testing-workflow
+
 ## What it does
 
 1. A person mentions the bot in Slack. The message has to say they paid and that the status is still unpaid.
@@ -78,6 +80,8 @@ Stripe Projects provisioned the CreateOS free plan and the CreateOS project. Tho
 `.env`, `node_modules`, `.projects/vault`, and `site/payment.json` stay off git.
 
 ## The bug in the course site
+
+- testing demo website - https://github.com/chaitralikakde/testing-workflow
 
 `site/course.mjs` keeps two students, Maya and Ava, both unpaid. When a completed checkout arrives, `applyPayment` selects the student whose email is **not** the payer:
 
